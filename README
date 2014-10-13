@@ -1,3 +1,8 @@
+[SFD 2014] OpenMAX IL & Streaming Server (on Raspberry PI) by CLUG
+
+http://www.ulug.or.kr/sfd-2014-openmax-il-streaming-server-on-raspberry-pi-by-clug/
+
 c++ -c -I../UsageEnvironment/include -I../groupsock/include -I../liveMedia/include -I../BasicUsageEnvironment/include -I. -O2 -DSOCKLEN_T=socklen_t -D_LARGEFILE_SOURCE=1 -D_FILE_OFFSET_BITS=64 -Wall -DBSD=1   live555MediaServer.cpp
+
 c++ -c -I../UsageEnvironment/include -I../groupsock/include -I../liveMedia/include -I../BasicUsageEnvironment/include -I. -O2 -DSOCKLEN_T=socklen_t -D_LARGEFILE_SOURCE=1 -D_FILE_OFFSET_BITS=64 -Wall -DBSD=1   DynamicRTSPServer.cpp
 
